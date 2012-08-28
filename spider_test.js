@@ -21,7 +21,7 @@ jsdom.env({
         var $ = window.$;
         console.log('HN Links');
         $('td.title:not(:last) a').each(function() {
-            console.log(' -', $(this).text());
+            console.log('mooncake test -', $(this).text());
         });
     }
 });
